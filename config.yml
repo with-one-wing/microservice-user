@@ -1,0 +1,10 @@
+apps:
+  - script   : 'server.js'
+    name     : 'APP'
+    env    :
+      NODE_ENV: development
+      MONGO_PASS: '11kiev01'
+      PORT: '3001'
+      JWT_KEY: 'secret'
+    watch_options:
+      usePolling: true
